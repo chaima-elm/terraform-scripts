@@ -1,4 +1,5 @@
 # Terraform
+
 ## Launch EC2 Instance
 
 Configure AWS CLI with an IAM user with access keys:
@@ -17,4 +18,15 @@ here we are the instance has been launched using the ressources we mentioned in 
 ![Screenshot from 2023-10-11 19-16-19](https://github.com/chaima-elm/Terraform/assets/70073617/86c8d1e2-a3ba-4913-a5b2-9e782d561759)
 Don't forget to destroy what you've created using: terraform destroy
 
+## Variables
+
+We can also launch our instance the same way but using variables
+
+all needed resources are on the directory Var 
+
+here we go ;) 
+![Alt text](<Screenshot from 2023-10-12 23-49-44.png>)
+on AWS:
+![Alt text](<Screenshot from 2023-10-12 23-48-14.png>)
+ 
 
