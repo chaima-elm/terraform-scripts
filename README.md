@@ -15,7 +15,8 @@ write your own terraform file based on the file: first_instance.tf
 its better to validate and format before initialize terrafrom
 
 here we are the instance has been launched using the ressources we mentioned in the tf file :
-![Screenshot from 2023-10-11 19-16-19](https://github.com/chaima-elm/Terraform/assets/70073617/86c8d1e2-a3ba-4913-a5b2-9e782d561759)
+![Screenshot from 2023-10-11 19-16-19](https://github.com/chaima-elm/terraform-scripts/assets/70073617/618ed93e-1150-486b-a967-4243eb46d16b)
+
 Don't forget to destroy what you've created using: terraform destroy
 
 ## Variables
@@ -25,8 +26,10 @@ We can also launch our instance the same way but using variables
 all needed resources are on the directory Var 
 
 here we go ;) 
-![Alt text](<Screenshot from 2023-10-12 23-49-44.png>)
+![Screenshot from 2023-10-12 23-49-44](https://github.com/chaima-elm/terraform-scripts/assets/70073617/4325a479-d825-4c2f-a72a-4741986a8f67)
+
 on AWS:
-![Alt text](<Screenshot from 2023-10-12 23-48-14.png>)
+![Screenshot from 2023-10-12 23-48-14](https://github.com/chaima-elm/terraform-scripts/assets/70073617/1656397e-f273-491a-974c-0ded324385c7)
+
  
 
