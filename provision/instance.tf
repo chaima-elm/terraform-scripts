@@ -33,3 +33,10 @@ resource "aws_instance" "shamy-inst" {
     host        = self.public_ip
   }
 }
+
+output "publicIP" {
+  value = aws_instance.shamy-inst.public_ip
+}
+output "peivateIP" {
+  value = aws_instance.shamy-inst.private_ip
+}
