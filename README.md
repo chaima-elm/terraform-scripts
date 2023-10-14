@@ -1,4 +1,4 @@
-# Terraform
+# IAC with Terraform
 
 ## Launch EC2 Instance
 
