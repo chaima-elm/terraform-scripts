@@ -31,12 +31,14 @@ here we go ;)
 on AWS:
 ![Screenshot from 2023-10-12 23-48-14](https://github.com/chaima-elm/terraform-scripts/assets/70073617/1656397e-f273-491a-974c-0ded324385c7)
 
-##Provisioning
+## Provisioning
 To provision resources on the EC2 instance, we use provisioners. 
 first you need to generate your key:
 
 ![Screenshot from 2023-10-13 00-37-53](https://github.com/chaima-elm/terraform-scripts/assets/70073617/239e5f51-49fb-4df8-ac5c-7177d0fc45ac)
  
 Then Update your Terraform file with provisioner configurations (check /provision directory) and apply changes.
+you can open your instance public IPv4 address, but before you should add an Inbound rule for this:
+![Screenshot from 2023-10-14 17-46-36](https://github.com/chaima-elm/terraform-scripts/assets/70073617/8d749486-d5e8-4314-b7ec-ed2a5bb50e69)
 
 
