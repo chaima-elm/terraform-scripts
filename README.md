@@ -66,4 +66,10 @@ after applying we can take a look at our file from s3 buck:
 ![Screenshot from 2023-10-14 19-24-23](https://github.com/chaima-elm/terraform-scripts/assets/70073617/91b0af3d-96b2-455a-a5d6-fe5cebd3e257)
 
 
-THAT's IT! I hope you find this insightful :)
+THAT's IT! 
+Don't forget to destroy what you have created with command:
+    $terraform destroy
+
+![Screenshot from 2023-10-14 21-47-34](https://github.com/chaima-elm/terraform-scripts/assets/70073617/f4f07bfe-0747-4201-93ec-e447841bc141)
+
+I hope you find this insightful :)
