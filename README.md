@@ -29,4 +29,10 @@ here we go ;)
 on AWS:
 ![Alt text](<Screenshot from 2023-10-12 23-48-14.png>)
  
+##Provisioning
 
+ To provision resources on the EC2 instance, use provisioners. 
+ first you need to generate your key:
+ screeenshooooooooooot
+ 
+ Update your Terraform file with provisioner configurations That you will find in the directory provision, and apply changes.
