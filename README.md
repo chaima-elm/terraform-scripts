@@ -5,10 +5,15 @@
 Configure AWS CLI with an IAM user with access keys:
 
 $ aws configure
-AWS Access Key ID [None]: **********
-AWS Secret Access Key [None]: ************
-Default region name [None]: 
-Default output format [None]: json
+
+    AWS Access Key ID [None]: **********
+
+    AWS Secret Access Key [None]: ************
+
+    Default region name [None]: 
+
+    Default output format [None]: json
+
 
 write your own terraform file based on the file: first_instance.tf 
 
@@ -38,10 +43,18 @@ first you need to generate your key:
 ![Screenshot from 2023-10-13 00-37-53](https://github.com/chaima-elm/terraform-scripts/assets/70073617/239e5f51-49fb-4df8-ac5c-7177d0fc45ac)
  
 Then Update your Terraform file with provisioner configurations (check /provision directory) and apply changes.
-you can open your instance public IPv4 address, but before you should add an Inbound rule for this:
+you can open your instance public IPv4 address, but before you should add an Inbound rule for it:
+
 ![Screenshot from 2023-10-14 17-46-36](https://github.com/chaima-elm/terraform-scripts/assets/70073617/8d749486-d5e8-4314-b7ec-ed2a5bb50e69)
 
-you can also fix what to be showen in the output, as you will found in my terraform file, i choosed this:
+you can also fix what to be showen in the output, as you will found in my terraform instance file, i choosed:
 
 ![Screenshot from 2023-10-14 18-19-53](https://github.com/chaima-elm/terraform-scripts/assets/70073617/def84b22-71d2-4c9a-8c1e-bd054c6fc25d)
 
+## Mantain The state in S3 Bucket
+
+TerraForm maintains the state, but the state is really local (my machine) so If I'm working in a team and we're using the same code to maintain the state, then we may have a different state of the infrastructure. If someone makes a change, we will have all different states of the infrastructure.
+
+So in order to make the state in sync we should put the terraform state file in a remote location such as S3 BUCKET.
+
+For that I puted my state information in the file provision/backend.tf
