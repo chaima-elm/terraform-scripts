@@ -40,3 +40,8 @@ first you need to generate your key:
 Then Update your Terraform file with provisioner configurations (check /provision directory) and apply changes.
 you can open your instance public IPv4 address, but before you should add an Inbound rule for this:
 ![Screenshot from 2023-10-14 17-46-36](https://github.com/chaima-elm/terraform-scripts/assets/70073617/8d749486-d5e8-4314-b7ec-ed2a5bb50e69)
+
+you can also fix what to be showen in the output, as you will found in my terraform file, i choosed this:
+
+![Screenshot from 2023-10-14 18-19-53](https://github.com/chaima-elm/terraform-scripts/assets/70073617/def84b22-71d2-4c9a-8c1e-bd054c6fc25d)
+
