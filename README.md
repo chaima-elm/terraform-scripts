@@ -57,4 +57,4 @@ TerraForm maintains the state, but the state is really local (my machine) so If 
 
 So in order to make the state in sync we should put the terraform state file in a remote location such as S3 BUCKET.
 
-For that I puted my state information in the file provision/backend.tf
+For that I added the file provision/backend.tf and before intillizing terraform I crreated an s3 bucket on aws.
