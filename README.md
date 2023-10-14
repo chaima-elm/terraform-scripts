@@ -31,9 +31,11 @@ We can also launch our instance the same way using variables
 all needed resources are on the directory Var 
 
 here we go ;)
+
 ![Screenshot from 2023-10-12 23-49-44](https://github.com/chaima-elm/terraform-scripts/assets/70073617/4325a479-d825-4c2f-a72a-4741986a8f67)
 
 on AWS:
+
 ![Screenshot from 2023-10-12 23-48-14](https://github.com/chaima-elm/terraform-scripts/assets/70073617/1656397e-f273-491a-974c-0ded324385c7)
 
 ## Provisioning
@@ -64,4 +66,4 @@ after applying we can take a look at our file from s3 buck:
 ![Screenshot from 2023-10-14 19-24-23](https://github.com/chaima-elm/terraform-scripts/assets/70073617/91b0af3d-96b2-455a-a5d6-fe5cebd3e257)
 
 
-THAT's IT!
+THAT's IT! I hope you find this insightful :)
