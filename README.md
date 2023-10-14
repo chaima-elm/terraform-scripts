@@ -21,7 +21,7 @@ Don't forget to destroy what you've created using: terraform destroy
 
 ## Variables
 
-We can also launch our instance the same way but using variables
+We can also launch our instance the same way using variables
 
 all needed resources are on the directory Var 
 
@@ -31,5 +31,12 @@ here we go ;)
 on AWS:
 ![Screenshot from 2023-10-12 23-48-14](https://github.com/chaima-elm/terraform-scripts/assets/70073617/1656397e-f273-491a-974c-0ded324385c7)
 
+##Provisioning
+To provision resources on the EC2 instance, we use provisioners. 
+first you need to generate your key:
+
+![Screenshot from 2023-10-13 00-37-53](https://github.com/chaima-elm/terraform-scripts/assets/70073617/239e5f51-49fb-4df8-ac5c-7177d0fc45ac)
  
+Then Update your Terraform file with provisioner configurations (check /provision directory) and apply changes.
+
 
