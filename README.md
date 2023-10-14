@@ -58,3 +58,10 @@ TerraForm maintains the state, but the state is really local (my machine) so If 
 So in order to make the state in sync we should put the terraform state file in a remote location such as S3 BUCKET.
 
 For that I added the file provision/backend.tf and before intillizing terraform I crreated an s3 bucket on aws.
+
+after applying we can take a look at our file from s3 buck:
+
+![Screenshot from 2023-10-14 19-24-23](https://github.com/chaima-elm/terraform-scripts/assets/70073617/91b0af3d-96b2-455a-a5d6-fe5cebd3e257)
+
+
+THAT's IT!
